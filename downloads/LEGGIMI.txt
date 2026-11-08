@@ -1,0 +1,3 @@
+Metti qui il tuo file .jar, per esempio: zero-client-1.0.0.jar
+Poi in index.html imposta il tag <meta name="jc-download"> con: downloads/zero-client-1.0.0.jar
+(oppure usa GitHub Releases e imposta <meta name="jc-repo"> con "utente/repo").

@@ -1,0 +1,10 @@
+# Netlify / Cloudflare Pages. Per Vercel/nginx/Apache riusa gli stessi valori.
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' 'sha256-+3okyUIze1n9yGkg8YuzUF6zBtJHJyMNPAQnxhmtenk=' 'sha256-ftucrxGo+OEPbM3f8/qZMKtR70VwtRwVhehyNWykvCs=' https://cdn.jsdelivr.net; style-src 'sha256-JSQ5Uwz6qzImjG6r3UJ8cgeE8jANXN+apONJOBg1V9w=' 'sha256-vvZqp7Xt3vdZo3ZJKZjPFVdeW4tZfA7ch9pGegqhV7U=' 'sha256-IQ5f8P2EbvLdhCzT347Lc9uepZu0PS3/kihemEgWJJc=' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; media-src 'self' data: blob:; connect-src https://api.github.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests; frame-ancestors 'none'
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(self), gyroscope=(self), camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
